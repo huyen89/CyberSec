@@ -1,0 +1,22 @@
+Attack Report:
+Attack                                                                                     Number of Attacks    Percentage
+------------------------------------------------------------------------------------------------------------------------
+Total                                                                                      522180               100       %
+RESPONSE-980-CORRELATION                                                                   102936               19.71     %
+REQUEST-949-BLOCKING-EVALUATION                                                            98681                18.90     %
+REQUEST-930-APPLICATION-ATTACK-LFI                                                         90231                17.28     %
+REQUEST-942-APPLICATION-ATTACK-SQLI                                                        77513                14.84     %
+REQUEST-920-PROTOCOL-ENFORCEMENT                                                           68025                13.03     %
+REQUEST-932-APPLICATION-ATTACK-RCE                                                         27085                5.19      %
+REQUEST-941-APPLICATION-ATTACK-XSS                                                         19050                3.65      %
+RESPONSE-951-DATA-LEAKAGES-SQL                                                             18941                3.63      %
+REQUEST-913-SCANNER-DETECTION                                                              7932                 1.52      %
+RESPONSE-959-BLOCKING-EVALUATION                                                           4255                 0.81      %
+RESPONSE-950-DATA-LEAKAGES                                                                 4156                 0.80      %
+REQUEST-933-APPLICATION-ATTACK-PHP                                                         1459                 0.28      %
+REQUEST-921-PROTOCOL-ATTACK                                                                958                  0.18      %
+REQUEST-944-APPLICATION-ATTACK-JAVA                                                        744                  0.14      %
+REQUEST-911-METHOD-ENFORCEMENT                                                             142                  0.03      %
+REQUEST-934-APPLICATION-ATTACK-NODEJS                                                      36                   0.01      %
+REQUEST-931-APPLICATION-ATTACK-RFI                                                         19                   0.00      %
+RESPONSE-953-DATA-LEAKAGES-PHP                                                             17                   0.00      %
