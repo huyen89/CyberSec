@@ -8,4 +8,4 @@ pattern = r'\[file\s\"/etc/apache2/modsecurity-crs/coreruleset-3.3.0/rules/(.*?)
 confFiles = core_function.find_pattern_in_line(file_path,pattern)
 
 # Generate the attack report
-core_function.generate_attack_report(confFiles,3,"Most Violated Rules","most-violated-crs.png")
+core_function.generate_attack_report(confFiles,"Most Violated Rules","most-violated-crs.png")

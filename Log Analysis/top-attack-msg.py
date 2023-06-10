@@ -10,4 +10,4 @@ pattern = r'\[msg\s+"(.*?)[\(|"\]|\:]'
 msgs = core_function.find_pattern_in_line(file_path,pattern)
 
 # Generate the attack report
-core_function.generate_attack_report(msgs,3,"Most Common Attacks","most-common-attacks.png")
+core_function.generate_attack_report(msgs,"Most Common Attacks","most-common-attacks.png")

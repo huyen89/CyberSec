@@ -17,7 +17,7 @@ import matplotlib.pyplot as plt
 import operator
 
 # Hàm generate report và chart 
-def generate_attack_report(attack_dict, threshold,title,chart_png):
+def generate_attack_report(attack_dict,title,chart_png,threshold=3):
     # Sort attacks by the number of times attacked descendingly
     sorted_attacks = sorted(attack_dict.items(), key=operator.itemgetter(1), reverse=True)
 
