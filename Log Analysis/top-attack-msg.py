@@ -71,7 +71,7 @@ def generate_attack_report(attack_dict):
     plt.pie(percentages, labels=attacks, autopct='%1.1f%%')
     plt.title("Most Common Attacks")
     plt.axis('equal')
-    plt.savefig("pie_chart.png")  # Save the pie chart as an image file
+    plt.savefig("most-common-attack.png")  # Save the pie chart as an image file
 
 # Generate the attack report
 generate_attack_report(msgs)
