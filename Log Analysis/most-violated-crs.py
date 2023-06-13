@@ -1,7 +1,8 @@
 import core_function
 
 # Lưu địa chỉ file log vào file_path
-file_path = 'modsec_debug.log'
+file_path = '../../modsec_debug.log'
+
 # Pattern của biểu thức chính quy tìm kiếm các rule trong CRS trong file log
 pattern = r'\[file\s\"/etc/apache2/modsecurity-crs/coreruleset-3.3.0/rules/(.*?).conf\"\]'
 

@@ -2,7 +2,7 @@
 import core_function
 
 # Lưu địa chỉ file log vào file_path
-file_path = 'modsec_debug.log'
+file_path = '../../modsec_debug.log'
 # Pattern của biểu thức chính quy tìm kiếm [msg "..."] trong file log
 pattern = r'\[msg\s+"(.*?)[\(|"\]|\:]'
 
